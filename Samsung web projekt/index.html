@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header class="main-header">
+  <nav class="nav">
+    <div class="logo-container">
+        <img src="img/logo.png" alt="Samsung logo" class="logo-img">
+    </div>
+
+    
+    <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-list').classList.toggle('open')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Modeli</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">O nama</a></li>
+      <li class="nav-item cart-mobile">
+        <img src="img/cart-icon.png" alt="Cart icon" class="cart-img">
+      </li>
+    </ul>
+
+    <div class="cart-img-container">
+      <img src="img/cart-icon.png" alt="Cart icon" class="cart-img">
+    </div>
+  </nav>
+</header>
+
+    <main class="main-content">
+        <section class="hero-section m-padding-inline">
+            <video src="videos/Galaxy_s25_video.mp4" 
+                class="hero-video"
+                autoplay
+                muted
+                playsinline
+                loop>
+            </video>
+            <div class="hero-text-container">
+                <h1 class="main-title l-title">Galaxy Experience</h1>
+                <button class="btn">Doznaj više</button>
+            </div>
+        </section>
+        <section class="latest-model-section padding-inline">
+            <div class="latest-model-container">
+                <h3 class="m-title title">Explore the Latest Galaxy Smartphone</h3>
+                <div class="latest-model-text-container">
+                    <h3 class="m-title title">Galaxy S25 Ultra</h3>
+                    <button class="btn learn-more-btn">Saznaj više</button>
+                    <button class="btn purchase-btn">Kupi sada</button>
+                </div>
+            </div>
+        </section>
+        <section class="z-fold-model padding-inline">
+            <div class="z-fold-model-container">
+                <h3 class="m-title title">Upoznaj naš najnoviji Z Model</h3>
+                <video class="z-fold-model-video" src="videos/galaxy-z-fold7.webm" autoplay
+                muted
+                playsinline
+                ></video>
+
+                <div class="z-fold-model-info-container">
+                    <h2 class="md-title title margin-bottom-m l-title">Galaxy Z Fold7</h3>
+
+                    <div class="z-fold7-display-wrapper">
+                        <div class="z-fold7-wrapper thin-spec-container">
+                            <h4 class="z-fold7-spec-text s-title">Najtanji, najlakši Galaxy Z Fold.</h4>
+                            <img src="img/z-fold7-thin1731.png" alt="Z fold thin showcase" class="img z-fold-thin-img z-fold7-showcase-img">
+                        </div>
+                        <div class="z-fold7-wrapper camera-spec-container">
+                            <h4 class="z-fold7-spec-text s-title align-text-right">Najbolja kamera.</h4>
+                            <img src="img/galaxy-z-fold7-camera.jpg" alt="Z fold thin showcase" class="img z-fold-camera-img z-fold7-showcase-img">
+                        </div>
+                        <div class="z-fold7-wrapper z-fold7-model-container">
+                            <img src="img/z-fold7-model.webp" alt="Z Fold7 mobile image" class="z-fold7-img-model">
+                        </div>
+                        <div class="z-fold7-wrapper battery-spec-container">
+                            <h4 class="z-fold7-spec-text s-title">Baterija koja traje.</h4>
+                            <img src="img/galaxy-z-fold7-battery.jpg" alt="Z fold thin showcase" class="img z-fold-battery-img z-fold7-showcase-img">
+                        </div>
+                        <div class="z-fold7-wrapper cpu-spec-container">
+                            <h4 class="z-fold7-spec-text s-title align-text-right">Najsnažniji procesor.</h4>
+                            <img src="img/z-fold7-cpu.png" alt="Z fold thin showcase" class="img z-fold-cpu-img z-fold7-showcase-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="samsung-models-section">
+
+            <div class="phone-model-container">
+                <div class="phone-model-img-container">
+                    <img src="" alt="" class="phone-model-img">
+                </div>
+                <div class="phone-model-text-container">
+                    <h4 class="phone-model-title title">Galaxy S25</h4>
+                    <button class="btn purchase-btn">Kupi sada</button>
+                </div>
+            </div>
+
+            <div class="phone-model-container">
+                <div class="phone-model-img-container">
+                    <img src="" alt="" class="phone-model-img">
+                </div>
+                <div class="phone-model-text-container">
+                    <h4 class="phone-model-title title">Galaxy A55</h4>
+                    <button class="btn purchase-btn">Kupi sada</button>
+                </div>
+            </div>
+
+            <div class="phone-model-container">
+                <div class="phone-model-img-container">
+                    <img src="" alt="" class="phone-model-img">
+                </div>
+                <div class="phone-model-text-container">
+                    <h4 class="phone-model-title title">Galaxy Z Fold7</h4>
+                    <button class="btn purchase-btn">Kupi sada</button>
+                </div>
+            </div>
+
+            <div class="phone-model-container">
+                <div class="phone-model-img-container">
+                    <img src="" alt="" class="phone-model-img">
+                </div>
+                <div class="phone-model-text-container">
+                    <h4 class="phone-model-title title">Galaxy Z Flip6</h4>
+                    <button class="btn purchase-btn">Kupi sada</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
+
+
